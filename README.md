@@ -4,15 +4,15 @@ goose is a database migration tool.
 
 You can manage your database's evolution by creating incremental SQL or Go scripts.
 
-[![Build Status](https://drone.io/bitbucket.org/liamstask/goose/status.png)](https://drone.io/bitbucket.org/liamstask/goose/latest)
+[![Build Status](https://drone.io/github.com/c2h5oh/goose/status.png)](https://drone.io/github.com/c2h5oh/goose/latest)
 
 # Install
 
-    $ go get bitbucket.org/liamstask/goose/cmd/goose
+    $ go get github.com/c2h5oh/goose/cmd/goose
 
 This will install the `goose` binary to your `$GOPATH/bin` directory.
 
-You can also build goose into your own applications by importing `bitbucket.org/liamstask/goose/lib/goose`. Documentation is available at [godoc.org](http://godoc.org/bitbucket.org/liamstask/goose/lib/goose).
+You can also build goose into your own applications by importing `github.com/c2h5oh/goose/lib/goose`. Documentation is available at [godoc.org](http://godoc.org/github.com/c2h5oh/goose/lib/goose).
 
 NOTE: the API is still new, and may undergo some changes.
 
