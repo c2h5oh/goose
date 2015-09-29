@@ -6,6 +6,10 @@ You can manage your database's evolution by creating incremental SQL or Go scrip
 
 [![Build Status](https://drone.io/github.com/c2h5oh/goose/status.png)](https://drone.io/github.com/c2h5oh/goose/latest)
 
+# Status of this fork
+
+At this point this fork does not differ from the bitbucket repository, except for updated import paths. I intend to start adding features and reviewing pull requests (both closed and pending) on bitbucket tracker soon.
+
 # Install
 
     $ go get github.com/c2h5oh/goose/cmd/goose
@@ -227,7 +231,7 @@ These instructions assume that you're using [Keith Rarick's Heroku Go buildpack]
 // note: need at least one blank line after build constraint
 package main
 
-import _ "bitbucket.org/liamstask/goose/cmd/goose"
+import _ "gitbhub.com/c2h5oh/goose/cmd/goose"
 ```
 
 [Set up your Heroku database(s) as usual.](https://devcenter.heroku.com/articles/heroku-postgresql)
